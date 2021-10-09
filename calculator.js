@@ -51,7 +51,7 @@ app.get("/minus", (req, res) => {
 
   res.status(200).json({
     success: true,
-    message: `Numbers ${a} and ${b} are added. Result is ${a - b}`,
+    message: `Numbers ${a} and ${b} are subtracted. Result is ${a - b}`,
   });
 });
 
@@ -63,7 +63,7 @@ app.get("/multiply", (req, res) => {
 
   res.status(200).json({
     success: true,
-    message: `Numbers ${a} and ${b} are added. Result is ${a * b}`,
+    message: `Numbers ${a} and ${b} are multiplied. Result is ${a * b}`,
   });
 });
 
